@@ -1,0 +1,42 @@
+/* src/Form.css */
+.Form {
+  font-size: 1em;
+	/* width: 100%; */
+	margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	
+}
+
+.Form > form {
+  padding: 0.5em;
+	margin: 0;
+	border: 1px solid;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Form > h1 {
+  padding: 0.5em;
+	margin: 0;
+	border-top: 3px solid;
+	border-bottom: 3px solid;
+}
+
+.Form > form > label {
+  padding: 1em;
+	margin-left: 0;
+	display: flex;
+  justify-self: left;
+  
+}
+.Form > form > input {
+  font-size: 1.5em;
+	width: 100px;
+	margin: 0;
+	border: 1px solid lightgray;
+	
+}
+  

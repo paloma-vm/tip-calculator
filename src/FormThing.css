@@ -1,0 +1,9 @@
+/* src/FormThing.css */
+.FormThing {
+    font-size: 1em;
+	width: 100%;
+	margin: 0;
+	background-color: #eee;
+	border: 3px solid;
+	
+}
