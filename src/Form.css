@@ -2,9 +2,9 @@
 
 .Form {
   font-size: 1em;
-	margin: 5em;
+	margin: auto;
   display: flex;
-  justify-content: center;
+  justify-self: space-around;
   align-items: center;
 	border: 1px solid lightgrey;
   border-radius: 0.5em;
