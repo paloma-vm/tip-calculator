@@ -1,20 +1,24 @@
 /* src/Form.css */
+
 .Form {
   font-size: 1em;
-	/* width: 100%; */
-	margin: 0;
+	margin: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
-	
+	border: 1px solid lightgrey;
+  border-radius: 0.5em;
+  width: 650px;
+  
 }
 
 .Form > form {
-  padding: 0.5em;
+  padding: 1em;
 	margin: 0;
-	border: 1px solid;
+	border-right: 1px solid lightgrey;
   display: flex;
   flex-direction: column;
+  width: 50%;
 
 }
 
@@ -26,7 +30,7 @@
 }
 
 .Form > form > label {
-  padding: 1em;
+  padding: 1em 1em 0.25em 0;
 	margin-left: 0;
 	display: flex;
   justify-self: left;
@@ -34,9 +38,52 @@
 }
 .Form > form > input {
   font-size: 1.5em;
-	width: 100px;
+	width: 175px;
 	margin: 0;
 	border: 1px solid lightgray;
+  margin-bottom: 0.3em;
+  padding: 0.25em;
+  text-align: center;
 	
 }
+
+.display {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
   
+}
+
+.display > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 1.25em;
+}
+
+.display > div > div {
+  align-content: left;
+  margin: 0;
+  
+}
+
+.display > div > h1 {
+  align-items: center;
+  
+}
+
+h2 {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+p {
+  margin-top: 0;
+}
+
+.tip > h1 {
+  font-weight: 450;
+}
+
+
+
+
